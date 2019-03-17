@@ -3,9 +3,11 @@
 
 Clone the repo, open the irb
 
+```ruby
 > `require './lib/oyster_card'`
 > trip = OysterCard.new.check_in({station_1})
 > trip.end_trip(station_2)
+```
 
 ```ruby
 # Station List Array
